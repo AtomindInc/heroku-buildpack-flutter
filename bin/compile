@@ -2,7 +2,7 @@
 # bin/compile <build-dir> <cache-dir> <env-dir>
 
 # generate .env file
-printenv > .env
+$3 > .env
 cat .env
 
 set -e
