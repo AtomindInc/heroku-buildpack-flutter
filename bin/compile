@@ -1,6 +1,10 @@
 #!/usr/bin/env bash
 # bin/compile <build-dir> <cache-dir> <env-dir>
 
+# generate .env file
+printenv > .env
+cat .env
+
 set -e
 unset GIT_DIR
 
